@@ -1,0 +1,18 @@
+@import "../../scss/mixins/mq";
+
+.calculator {
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  width: 100%;
+  padding: 1rem;
+  height: 100%;
+  min-height: 891px;
+  max-height: 891px;
+  min-width: 300px;
+  max-width: 500px;
+  @include mq($from: SM) {
+    box-shadow: rgb(221, 221, 221) 0 0 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+  }
+}

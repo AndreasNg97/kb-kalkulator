@@ -1,0 +1,123 @@
+@import "../../scss/variables/colors";
+
+.calculator--input-wrapper {
+  display: grid;
+  align-items: center;
+
+  label {
+    text-align: center;
+    font-size: 1.8rem;
+    color: $primary-orange;
+  }
+
+  .calculator--input-value {
+    margin-top: -10rem;
+    h1 {
+      text-align: center;
+      font-size: 4rem;
+      margin-bottom: -1rem;
+      color: #bfbfbf;
+      transition: 0.4s;
+    }
+
+    p {
+      text-align: center;
+      font-weight: 800;
+      color: #bfbfbf;
+      transition: 0.4s;
+    }
+  }
+
+  .calculator--input-value--selected {
+    h1 {
+      color: $primary-orange;
+    }
+    p {
+      color: $primary-orange;
+    }
+  }
+  .calculator--input--range-group--wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.6rem;
+    width: 100%;
+    margin-top: -11.5rem;
+    .calculator--input--range-input--wrapper {
+      grid-column: 1 / -1;
+      height: 8.4px;
+      position: relative;
+      padding-left: 0.0039rem;
+      padding-right: 0.09rem;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    p {
+      margin: 0;
+      font-size: 0.9rem;
+      padding: 0 0 0 0.3rem;
+      color: $primary-orange;
+      &:nth-last-child(1) {
+        text-align: right;
+        padding: 0 0.3rem 0 0rem;
+      }
+    }
+  }
+}
+
+/* TODO - SCSS */
+input[type="range"] {
+  position: relative;
+  -webkit-appearance: none;
+  margin: 25px 0;
+  width: 100%;
+}
+input[type="range"]:focus {
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+}
+input[type="range"]::-webkit-slider-thumb {
+  background-color: $primary-orange;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin-top: -0.9rem;
+  cursor: grab;
+  -webkit-appearance: none;
+}
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  /*   border: 2px solid $primary-orange; */
+}
+
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid $primary-orange;
+}
+
+input[type="range"]::-moz-range-thumb {
+  background-color: $primary-orange;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: none;
+  cursor: grab;
+}
+
+input[type="range"]::-moz-range-progress {
+  background-color: $primary-orange;
+  height: 8.4px;
+  border-radius: 30px;
+}

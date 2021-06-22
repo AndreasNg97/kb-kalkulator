@@ -1,0 +1,13 @@
+@import "../../scss/variables/colors";
+
+.number-input {
+  input[type="number"] {
+    width: 100%;
+    color: $primary-orange;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 3rem;
+    background-color: transparent;
+    border: none;
+  }
+}

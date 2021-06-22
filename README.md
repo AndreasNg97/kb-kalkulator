@@ -1,0 +1,2 @@
+# kb-kalkulator
+Fattigdoms kalkulator

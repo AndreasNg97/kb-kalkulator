@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kb-kalkulator/static/css/main.3ccba832.chunk.css",
+    "main.js": "/kb-kalkulator/static/js/main.5903823a.chunk.js",
+    "main.js.map": "/kb-kalkulator/static/js/main.5903823a.chunk.js.map",
+    "runtime-main.js": "/kb-kalkulator/static/js/runtime-main.421c1c8f.js",
+    "runtime-main.js.map": "/kb-kalkulator/static/js/runtime-main.421c1c8f.js.map",
+    "static/js/2.a61d0c84.chunk.js": "/kb-kalkulator/static/js/2.a61d0c84.chunk.js",
+    "static/js/2.a61d0c84.chunk.js.map": "/kb-kalkulator/static/js/2.a61d0c84.chunk.js.map",
+    "static/js/3.476bd96b.chunk.js": "/kb-kalkulator/static/js/3.476bd96b.chunk.js",
+    "static/js/3.476bd96b.chunk.js.map": "/kb-kalkulator/static/js/3.476bd96b.chunk.js.map",
+    "index.html": "/kb-kalkulator/index.html",
+    "static/css/main.3ccba832.chunk.css.map": "/kb-kalkulator/static/css/main.3ccba832.chunk.css.map",
+    "static/js/2.a61d0c84.chunk.js.LICENSE.txt": "/kb-kalkulator/static/js/2.a61d0c84.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.421c1c8f.js",
+    "static/js/2.a61d0c84.chunk.js",
+    "static/css/main.3ccba832.chunk.css",
+    "static/js/main.5903823a.chunk.js"
+  ]
+}
